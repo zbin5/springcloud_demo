@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway" />
+        <module name="api" />
+        <module name="consumer1" />
+        <module name="common-restful" />
+        <module name="login-server" />
+        <module name="common-db" />
+        <module name="common-security" />
+        <module name="register" />
+        <module name="provider1" />
+        <module name="common-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-redis" target="1.8" />
+      <module name="login" target="1.8" />
+      <module name="login-client" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="common-db" options="-parameters" />
+      <module name="common-redis" options="-parameters" />
+      <module name="common-restful" options="-parameters" />
+      <module name="common-security" options="-parameters" />
+      <module name="common-utils" options="-parameters" />
+      <module name="consumer1" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="login-client" options="-parameters" />
+      <module name="login-server" options="-parameters" />
+      <module name="provider1" options="-parameters" />
+      <module name="register" options="-parameters" />
+    </option>
+  </component>
+</project>

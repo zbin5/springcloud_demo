@@ -1,0 +1,32 @@
+server:
+  port: 7001
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.63:8848 #ע�ᵽNacos
+        group: dev
+  application:
+    name: register
+  datasource:
+    url: jdbc:mysql://192.168.1.63:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  security:
+    basic:
+      enabled: false
+    user:
+      name: admin
+      password: 123456
+  redis:
+    host: 192.168.1.63
+    port: 6379
+    password: 123456
+    database: 0
+    timeout: 5000
+    lettuce:
+      pool:
+        max-wait: 100000
+        min-idle: 10
+        max-idle: 100

@@ -1,0 +1,11 @@
+com\zb\springcloud\provider1\filter\ResourceConfiguration.class
+com\zb\springcloud\provider1\service\UserInfoService.class
+com\zb\springcloud\provider1\controller\TestController.class
+com\zb\springcloud\provider1\Provider1Application.class
+com\zb\springcloud\provider1\service\OrderService.class
+com\zb\springcloud\provider1\mapper\UserInfoMapper.class
+com\zb\springcloud\provider1\controller\MineController.class
+com\zb\springcloud\provider1\model\Order.class
+com\zb\springcloud\provider1\service\Impl\UserInfoServiceImpl.class
+com\zb\springcloud\provider1\model\UserInfo.class
+com\zb\springcloud\provider1\mapper\OrderMapper.class

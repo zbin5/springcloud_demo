@@ -1,0 +1,53 @@
+server:
+  #运行端口
+  port: 9001
+spring:
+  application:
+    #服务注册名称
+    name: @pom.name@
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.63:8848 #注册到Nacos
+        group: dev
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启从注册中心动态创建路由的功能，利用微服务名称j进行路由
+      routes:
+        - id: provider # 路由的id,没有规定规则但要求唯一,建议配合服务名
+          #匹配后提供服务的路由地址
+          uri: lb://provider
+          predicates:
+            - Path=/provider/** # **：通配符 ；断言，路径相匹配的进行路由
+          filters:
+            - RewritePath=/provider/(?<segment>.*),/$\{segment}
+        - id: consumer
+          uri: lb://consumer
+          predicates:
+            - Path=/consumer/**  #断言,路径相匹配的进行路由
+          filters:
+            - RewritePath=/consumer/(?<segment>.*),/$\{segment}
+        - id: register
+          uri: lb://register
+          predicates:
+            - Path=/register/**  #断言,路径相匹配的进行路由
+          filters:
+            - RewritePath=/register/(?<segment>.*),/$\{segment}
+  security:
+    basic:
+      enabled: false
+    user:
+      name: admin
+      password: 123456
+  redis:
+    host: 192.168.1.63
+    port: 6379
+    password: 123456
+    database: 0
+    timeout: 5000
+    lettuce:
+      pool:
+        max-wait: 100000
+        min-idle: 10
+        max-idle: 100

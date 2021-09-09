@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="login-client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/login/login-client/target/login-client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+server:
+  port: 7002
+spring:
+  application:
+    name: login-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.63:8848 #注册到Nacos
+        group: dev
