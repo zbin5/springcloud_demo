@@ -1,5 +1,0 @@
-com\zb\springcloud\gateway\config\GatewayCorsConfiguration.class
-com\zb\springcloud\gateway\security\config\SecurityConfig.class
-com\zb\springcloud\gateway\security\config\TokenConfig.class
-com\zb\springcloud\gateway\filter\GatewayFilterConfig.class
-com\zb\springcloud\gateway\GatewayApplication.class

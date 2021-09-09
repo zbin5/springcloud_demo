@@ -1,4 +1,0 @@
-com\zb\springcloud\common\security\handler\SuccessHandler.class
-com\zb\springcloud\common\security\configuration\ResourceConfiguration.class
-com\zb\springcloud\common\security\handler\FailureHandler.class
-com\zb\springcloud\common\security\handler\LogoutHandler.class
