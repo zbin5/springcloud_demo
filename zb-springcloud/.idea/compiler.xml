@@ -8,14 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gateway" />
         <module name="api" />
-        <module name="consumer1" />
         <module name="common-restful" />
         <module name="login-server" />
         <module name="common-db" />
+        <module name="common-utils" />
         <module name="common-security" />
         <module name="register" />
         <module name="provider1" />
-        <module name="common-utils" />
+        <module name="consumer1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

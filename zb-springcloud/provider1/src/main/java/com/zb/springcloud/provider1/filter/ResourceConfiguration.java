@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
+import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 
 @Configuration
 @EnableResourceServer
@@ -14,5 +15,10 @@ public class ResourceConfiguration extends ResourceServerConfigurerAdapter {
     public void configure(HttpSecurity http) throws Exception {
         log.info("##### 使用默认的配置，表示对所有资源都需要授权认证，即授权通过后可以访问所有资源 #####");
         super.configure(http);
+    }
+    @Override
+    public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
+        log.info("##### 设置资源id #####");
+        resources.resourceId("res1");
     }
 }

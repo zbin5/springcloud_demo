@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bb3843e-e8d7-4a6d-8e15-a166b788b613" name="Default Changelist" comment="" />
+    <list default="true" id="6bb3843e-e8d7-4a6d-8e15-a166b788b613" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/zb-springcloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/TokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-db/common-db.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-restful/common-restful.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-utils/common-utils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-server/login-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/GlobalAuthenticationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/MyAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/ResourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/ResourceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +34,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -34,6 +56,9 @@
     <option name="delegateBuildToMaven" value="true" />
   </component>
   <component name="ProjectId" id="1xX4RWJzYN11tCGH38nTKyq5hu0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -47,9 +72,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="G:/RZZL/rzzl_elink/20210310/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37407953" />
@@ -57,6 +83,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.zb.springcloud.provider1.filter" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zb.springcloud.provider1.filter" />
       <recent name="com.zb.springcloud.common.restful.service" />
@@ -70,7 +99,7 @@
       <recent name="G:\IDEAWP\zb-springcloud\register\src\main\java\com\zb\springcloud\register" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RegisterApplication">
+  <component name="RunManager" selected="Spring Boot.Provider1Application">
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gateway" />
       <extension name="coverage">
@@ -113,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LoginServerApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.LoginServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +183,8 @@
       <workItem from="1631081274474" duration="3585000" />
       <workItem from="1631151119166" duration="6314000" />
       <workItem from="1631165637350" duration="6235000" />
+      <workItem from="1631174071366" duration="4283000" />
+      <workItem from="1631247857765" duration="269000" />
     </task>
     <servers />
   </component>
@@ -177,62 +208,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="288" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1630736049559" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1631169568434">
+    <state width="438" height="466" key="DebuggerActiveHint" timestamp="1631177267966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631169568434" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1631174007760">
+    <state width="438" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1631177267966" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1631174722263">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631174007760" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1631174007759">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631174722263" />
+    <state width="1493" height="377" key="GridCell.Tab.0.bottom" timestamp="1631178356951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1631174007759" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1631174007759">
+    <state width="1493" height="377" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
+    <state width="1493" height="377" key="GridCell.Tab.0.center" timestamp="1631178356951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1631174007759" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1631174007759">
+    <state width="1493" height="377" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
+    <state width="1493" height="377" key="GridCell.Tab.0.left" timestamp="1631178356951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1631174007759" />
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1631174007760">
+    <state width="1493" height="377" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
+    <state width="1493" height="377" key="GridCell.Tab.0.right" timestamp="1631178356951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631174007760" />
-    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1631174007760">
+    <state width="1493" height="377" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
+    <state width="1493" height="377" key="GridCell.Tab.1.bottom" timestamp="1631178356952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1631174007760" />
-    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1631174007760">
+    <state width="1493" height="377" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631178356952" />
+    <state width="1493" height="377" key="GridCell.Tab.1.center" timestamp="1631178356952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1631174007760" />
-    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1631174007760">
+    <state width="1493" height="377" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1631178356952" />
+    <state width="1493" height="377" key="GridCell.Tab.1.left" timestamp="1631178356951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1631174007760" />
-    <state width="1493" height="377" key="GridCell.Tab.2.bottom" timestamp="1631157541227">
+    <state width="1493" height="377" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
+    <state width="1493" height="377" key="GridCell.Tab.1.right" timestamp="1631178356952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631157541227" />
-    <state width="1493" height="377" key="GridCell.Tab.2.center" timestamp="1631157541227">
+    <state width="1493" height="377" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1631178356952" />
+    <state width="1493" height="377" key="GridCell.Tab.2.bottom" timestamp="1631178356953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1631157541227" />
-    <state width="1493" height="377" key="GridCell.Tab.2.left" timestamp="1631157541227">
+    <state width="1493" height="377" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631178356953" />
+    <state width="1493" height="377" key="GridCell.Tab.2.center" timestamp="1631178356953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1631157541227" />
-    <state width="1493" height="377" key="GridCell.Tab.2.right" timestamp="1631157541227">
+    <state width="1493" height="377" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1631178356953" />
+    <state width="1493" height="377" key="GridCell.Tab.2.left" timestamp="1631178356952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1631157541227" />
+    <state width="1493" height="377" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1631178356952" />
+    <state width="1493" height="377" key="GridCell.Tab.2.right" timestamp="1631178356953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="377" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1631178356953" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1630552143467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1630552143467" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1631177262268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1631177262268" />
     <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1630806694441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -241,10 +280,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1630808481262" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1631172589794">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1631176395246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1631172589794" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1631176395246" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1631178181528">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1631178181528" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -265,14 +308,9 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/MyAuthenticationProvider.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/MyAuthenticationProvider.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/zb/springcloud/gateway/filter/GatewayFilterConfig.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
