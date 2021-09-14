@@ -16,6 +16,8 @@
         <module>register</module>
         <module>api</module>
         <module>login-server</module>
+        <module>provider2</module>
+        <module>mq-consumer1</module>
     </modules>
     <name>zb-springcloud</name>
 

@@ -5,6 +5,11 @@ spring:
   application:
     #服务注册名称
     name: @pom.name@
+  zipkin:
+    base-url: http://192.168.1.63:9411
+  sleuth:
+    sampler:
+      probability: 1
   cloud:
     nacos:
       discovery:

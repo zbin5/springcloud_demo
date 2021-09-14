@@ -1,0 +1,51 @@
+server:
+  port: 6002
+
+spring:
+  application:
+    name: provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.63:8848 #注册到Nacos
+        group: dev
+    stream:
+      binders: #需要绑定的rabbitmq的服务信息
+        defaultRabbit:  #定义的名称，用于bidding整合
+          type: rabbit  #消息组件类型
+          environment:  #配置rabbimq连接环境
+            spring:
+              rabbitmq:
+                host: 192.168.1.63   #rabbitmq 服务器的地址
+                port: 5672           #rabbitmq 服务器端口
+                username: guest       #rabbitmq 用户名
+                password: guest       #rabbitmq 密码
+                virtual-host: /       #虚拟路径
+      bindings:        #服务的整合处理
+        testOutPut:    #这个是消息通道的名称 --->保存订单输出通道
+          destination: exchange-saveOrder     #exchange名称,交换模式默认是topic;把SpringCloud stream的消息输出通道绑定到RabbitMQ的exchange-saveOrder交换器。
+          content-type: application/json      #设置消息的类型，本次为json
+          default-binder: defaultRabbit
+          group: saveOrderGroup               #分组
+  security:
+    basic:
+      enabled: false
+    user:
+      name: admin
+      password: 123456
+  redis: #redis 通用配置
+    host: 192.168.1.63
+    port: 6379
+    password: 123456
+    database: 0
+    lettuce:
+      pool:
+        max-wait: 100000
+        max-idle: 10
+        max-active: 100
+    timeout: 5000
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@192.168.1.63:1521:helowin
+    username: nw_prod
+    password: nw_prod

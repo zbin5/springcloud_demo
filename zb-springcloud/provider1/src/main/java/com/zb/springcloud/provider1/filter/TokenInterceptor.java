@@ -37,18 +37,22 @@ public class TokenInterceptor implements HandlerInterceptor {
             // 检查token是否存在
             String token = getToken(request);
             if (StringUtils.isBlank(token)) {
+                response.sendError(403);
                 return false;
             }
 
             log.info(stringRedisTemplate.opsForValue().get("ceshi"));
             //3 判断是否是有效的token
             OAuth2AccessToken oAuth2AccessToken= tokenStore.readAccessToken(token);
-            if(stringRedisTemplate.opsForValue().get(oAuth2AccessToken.getAdditionalInformation().get("jti").toString())==null)
+            if(stringRedisTemplate.opsForValue().get(oAuth2AccessToken.getAdditionalInformation().get("jti").toString())==null){
+                response.sendError(403);
                 return false;
+            }
 
             return true;
         }catch (Exception e){
             log.error("拦截器处理异常：",e);
+            response.sendError(500);
             return false;
         }
     }

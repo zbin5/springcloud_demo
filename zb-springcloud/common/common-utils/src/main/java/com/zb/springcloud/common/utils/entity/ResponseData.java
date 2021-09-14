@@ -16,4 +16,10 @@ public class ResponseData {
         this.data=data;
         this.msg=msg;
     }
+
+    public ResponseData(String msg){
+        this.code=9999;
+        this.data=null;
+        this.msg=msg;
+    }
 }

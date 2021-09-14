@@ -2,24 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb3843e-e8d7-4a6d-8e15-a166b788b613" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/zb-springcloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/TokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-utils/src/main/java/com/zb/springcloud/common/utils/redis/RedisLockUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer1/src/main/java/com/zb/springcloud/consumer1/Consumer1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer1/src/main/java/com/zb/springcloud/consumer1/controller/MineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer1/src/main/java/com/zb/springcloud/consumer1/feignFallbackFactory/MineServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer1/src/main/java/com/zb/springcloud/consumer1/service/MineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer1/src/main/java/com/zb/springcloud/mq/consumer/MqConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer1/src/main/java/com/zb/springcloud/mq/consumer/listener/MessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer1/src/main/java/com/zb/springcloud/mq/consumer/service/MqInputMessageSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/handler/FailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/handler/LogoutHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/handler/SuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/com/zb/springcloud/provider2/Provider2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/com/zb/springcloud/provider2/controller/MineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/com/zb/springcloud/provider2/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/com/zb/springcloud/provider2/model/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/com/zb/springcloud/provider2/rabbit/service/MqMessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/com/zb/springcloud/provider2/rabbit/service/MqMessageSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/com/zb/springcloud/provider2/service/Impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/com/zb/springcloud/provider2/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-db/common-db.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-restful/common-restful.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-utils/common-utils.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-server/login-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/GlobalAuthenticationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/MyAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-utils/src/main/java/com/zb/springcloud/common/utils/entity/ResponseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-utils/src/main/java/com/zb/springcloud/common/utils/entity/ResponseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer1/src/main/java/com/zb/springcloud/consumer/LoginOauthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/zb/springcloud/gateway/filter/GatewayFilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/zb/springcloud/gateway/filter/GatewayFilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/Provider1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/Provider1Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/ResourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/ResourceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/TokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/filter/TokenInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/register/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +98,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mq-consumer1/src/main/java/com/zb/springcloud/mq/consumer/service" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37407953" />
@@ -87,19 +110,28 @@
       <recent name="com.zb.springcloud.provider1.filter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zb.springcloud.mq.consumer.service" />
+      <recent name="com.zb.springcloud.common.utils.redis" />
       <recent name="com.zb.springcloud.provider1.filter" />
       <recent name="com.zb.springcloud.common.restful.service" />
       <recent name="com.zb.springcloud.register.service.Impl" />
-      <recent name="com.zb.springcloud.register.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\IDEAWP\zb-springcloud\provider1\src\main\java\com\zb\springcloud\provider1\filter" />
-      <recent name="G:\IDEAWP\zb-springcloud\common\common-security\src\main\java\com\zb\springcloud\common\security" />
-      <recent name="G:\IDEAWP\zb-springcloud\register\src\main\resources" />
-      <recent name="G:\IDEAWP\zb-springcloud\register\src\main\java\com\zb\springcloud\register" />
+      <recent name="G:\IDEAWP\1\springcloud_demo\zb-springcloud\mq-consumer1\src\main\java\com\zb\springcloud\mq\consumer\service" />
+      <recent name="G:\IDEAWP\1\springcloud_demo\zb-springcloud\gateway\src\main\resources" />
+      <recent name="G:\IDEAWP\1\springcloud_demo\zb-springcloud\consumer1\src\main\resources" />
+      <recent name="G:\IDEAWP\1\springcloud_demo\zb-springcloud\provider2\src\main\resources" />
+      <recent name="G:\IDEAWP\1\springcloud_demo\zb-springcloud\provider2\src\main\java\com\zb\springcloud\provider2" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Provider1Application">
+  <component name="RunManager" selected="Spring Boot.MqConsumerApplication">
+    <configuration name="Consumer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.springcloud.consumer1.Consumer1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gateway" />
       <extension name="coverage">
@@ -126,9 +158,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MqConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mq-consumer1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.springcloud.mq.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.springcloud.mq.consumer.MqConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Provider1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.springcloud.provider1.Provider1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.springcloud.provider2.Provider2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,6 +194,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MqConsumerApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.LoginServerApplication" />
       </list>
@@ -184,7 +237,11 @@
       <workItem from="1631151119166" duration="6314000" />
       <workItem from="1631165637350" duration="6235000" />
       <workItem from="1631174071366" duration="4283000" />
-      <workItem from="1631247857765" duration="269000" />
+      <workItem from="1631247857765" duration="4600000" />
+      <workItem from="1631337405709" duration="9572000" />
+      <workItem from="1631427015425" duration="5209000" />
+      <workItem from="1631510097716" duration="11893000" />
+      <workItem from="1631596536109" duration="5760000" />
     </task>
     <servers />
   </component>
@@ -200,10 +257,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="501" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1630808672557" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1631082411416">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1631341067917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1631082411416" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1631341067917" />
     <state x="288" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1630736049559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -212,58 +269,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="438" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1631177267966" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1631174722263">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1631514446931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631174722263" />
-    <state width="1493" height="377" key="GridCell.Tab.0.bottom" timestamp="1631178356951">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631514446931" />
+    <state width="1493" height="444" key="GridCell.Tab.0.bottom" timestamp="1631602167507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
-    <state width="1493" height="377" key="GridCell.Tab.0.center" timestamp="1631178356951">
+    <state width="1493" height="444" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631602167507" />
+    <state width="1493" height="444" key="GridCell.Tab.0.center" timestamp="1631602167507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
-    <state width="1493" height="377" key="GridCell.Tab.0.left" timestamp="1631178356951">
+    <state width="1493" height="444" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1631602167507" />
+    <state width="1493" height="444" key="GridCell.Tab.0.left" timestamp="1631602167507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
-    <state width="1493" height="377" key="GridCell.Tab.0.right" timestamp="1631178356951">
+    <state width="1493" height="444" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1631602167507" />
+    <state width="1493" height="444" key="GridCell.Tab.0.right" timestamp="1631602167507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
-    <state width="1493" height="377" key="GridCell.Tab.1.bottom" timestamp="1631178356952">
+    <state width="1493" height="444" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1631602167507" />
+    <state width="1493" height="444" key="GridCell.Tab.1.bottom" timestamp="1631602167508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631178356952" />
-    <state width="1493" height="377" key="GridCell.Tab.1.center" timestamp="1631178356952">
+    <state width="1493" height="444" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631602167508" />
+    <state width="1493" height="444" key="GridCell.Tab.1.center" timestamp="1631602167508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1631178356952" />
-    <state width="1493" height="377" key="GridCell.Tab.1.left" timestamp="1631178356951">
+    <state width="1493" height="444" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1631602167508" />
+    <state width="1493" height="444" key="GridCell.Tab.1.left" timestamp="1631602167507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1631178356951" />
-    <state width="1493" height="377" key="GridCell.Tab.1.right" timestamp="1631178356952">
+    <state width="1493" height="444" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1631602167507" />
+    <state width="1493" height="444" key="GridCell.Tab.1.right" timestamp="1631602167508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1631178356952" />
-    <state width="1493" height="377" key="GridCell.Tab.2.bottom" timestamp="1631178356953">
+    <state width="1493" height="444" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1631602167508" />
+    <state width="1493" height="377" key="GridCell.Tab.2.bottom" timestamp="1631348833778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631178356953" />
-    <state width="1493" height="377" key="GridCell.Tab.2.center" timestamp="1631178356953">
+    <state width="1493" height="377" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631348833778" />
+    <state width="1493" height="377" key="GridCell.Tab.2.center" timestamp="1631348833778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1631178356953" />
-    <state width="1493" height="377" key="GridCell.Tab.2.left" timestamp="1631178356952">
+    <state width="1493" height="377" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1631348833778" />
+    <state width="1493" height="377" key="GridCell.Tab.2.left" timestamp="1631348833778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1631178356952" />
-    <state width="1493" height="377" key="GridCell.Tab.2.right" timestamp="1631178356953">
+    <state width="1493" height="377" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1631348833778" />
+    <state width="1493" height="377" key="GridCell.Tab.2.right" timestamp="1631348833778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="377" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1631178356953" />
+    <state width="1493" height="377" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1631348833778" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1630552143467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -276,10 +333,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1630806694441" />
-    <state x="178" y="107" key="new project wizard" timestamp="1630808481262">
+    <state x="178" y="107" key="new project wizard" timestamp="1631519048275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1630808481262" />
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1631519048275" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1631176395246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -306,11 +363,6 @@
           <url>file://$PROJECT_DIR$/provider1/src/main/java/com/zb/springcloud/provider1/controller/MineController.java</url>
           <line>20</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/zb/springcloud/gateway/filter/GatewayFilterConfig.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

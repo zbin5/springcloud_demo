@@ -1,0 +1,21 @@
+server:
+  port: 5001
+spring:
+  application:
+    name: consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.63:8848 #注册到Nacos
+        group: dev
+  security:
+    basic:
+      enabled: false
+    user:
+      name: admin
+      password: 123456
+
+# 开启Feign的Hystrix支持，默认是false
+feign:
+  circuitbreaker:
+    enabled: true

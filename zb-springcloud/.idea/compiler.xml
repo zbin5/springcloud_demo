@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mq-consumer1" />
         <module name="gateway" />
         <module name="api" />
-        <module name="common-restful" />
-        <module name="login-server" />
-        <module name="common-db" />
-        <module name="common-utils" />
-        <module name="common-security" />
-        <module name="register" />
-        <module name="provider1" />
         <module name="consumer1" />
+        <module name="common-restful" />
+        <module name="provider2" />
+        <module name="common-db" />
+        <module name="common-security" />
+        <module name="provider1" />
+        <module name="register" />
+        <module name="login-server" />
+        <module name="common-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,7 +39,9 @@
       <module name="gateway" options="-parameters" />
       <module name="login-client" options="-parameters" />
       <module name="login-server" options="-parameters" />
+      <module name="mq-consumer1" options="-parameters" />
       <module name="provider1" options="-parameters" />
+      <module name="provider2" options="-parameters" />
       <module name="register" options="-parameters" />
     </option>
   </component>

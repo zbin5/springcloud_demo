@@ -38,6 +38,7 @@ public class GatewayFilterConfig implements GlobalFilter, Ordered {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         String requestUrl = exchange.getRequest().getPath().value();
+        log.info("访问路径: {}", requestUrl);
         AntPathMatcher pathMatcher = new AntPathMatcher();
         //1 register 服务所有放行
         if (pathMatcher.match("/register/**", requestUrl)) {
